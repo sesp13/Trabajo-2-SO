@@ -22,11 +22,11 @@
       </div>
     </div>
     <div class="abs-center bg-secondary text-white">
-      <form action="#" class="border p-3 form">
+      <form class="border p-3 form" id = "form-ip">
         <div class = "row">
           <div class="form-group col-sm-6">
             <label for="text">Primera ip</label>
-            <input type="text" name="ip1" id="ip1" class="form-control">
+            <input type="text" name="ip1" id="ip1" class="form-control" required>
           </div>
           <div class="form-group col-sm-6">
             <label for="text">Segunda ip</label>
@@ -35,7 +35,7 @@
         </div>
         <div class="form-group">
           <label for="text">Máscara</label>
-          <input type="text" name="mascara" id="mascara" class="form-control">
+          <input type="text" name="mascara" id="mascara" class="form-control" required>
         </div>
         <button type="submit" class="btn btn-primary">Consulta</button>
       </form>
@@ -46,5 +46,8 @@
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/sweetalert2.all.min.js"></script>
+  <script src="js/index.js"></script>
+  
 </body>
 </html>
